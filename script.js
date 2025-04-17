@@ -1,5 +1,4 @@
 
-<script>
     function toggleExpand(section) {
         const content = section.nextElementSibling;
         const icon = section.querySelector('.expand-icon');
@@ -88,4 +87,3 @@
     });
 
     observer.observe(document.body, { childList: true, subtree: true });
-</script>
